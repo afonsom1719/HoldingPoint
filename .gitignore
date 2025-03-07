@@ -1,0 +1,19 @@
+# Node modules
+/node_modules/
+
+# Build output
+/dist/
+/out-tsc/
+
+/# Angular-specific
+.angular/
+
+# IDEs and text editors
+.vscode/
+/.idea/
+
+# macOS-specific
+.DS_Store
+
+# Environment files
+/.env
