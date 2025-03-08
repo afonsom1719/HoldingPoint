@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { GeneralModule } from './modules/general/general.module';
+import { AppRoutingModule } from './app-routing.nodule';
 
 @NgModule({
   declarations: [
@@ -10,8 +11,8 @@ import { GeneralModule } from './modules/general/general.module';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([]), // Add your routes here
-    GeneralModule
+    GeneralModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
