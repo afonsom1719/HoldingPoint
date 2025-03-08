@@ -4,7 +4,7 @@ import { TableModule } from 'primeng/table';
 @Component({
   selector: 'app-flights',
   templateUrl: './flights.component.html',
-  styleUrls: ['./flights.component.css'],
+  styleUrls: ['./flights.component.scss'],
   standalone: false
 })
 export class FlightsComponent implements OnInit {

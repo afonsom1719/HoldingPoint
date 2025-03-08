@@ -4,7 +4,7 @@ import { ToolbarModule } from 'primeng/toolbar';
 @Component({
     selector: 'app-top-bar',
     templateUrl: './top-bar.component.html',
-    styleUrls: ['./top-bar.component.css'],
+    styleUrls: ['./top-bar.component.scss'],
     standalone: false
 })
 export class TopBarComponent implements OnInit {
