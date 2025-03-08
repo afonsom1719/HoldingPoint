@@ -5,9 +5,7 @@ import { TableModule } from 'primeng/table';
   selector: 'app-flights',
   templateUrl: './flights.component.html',
   styleUrls: ['./flights.component.css'],
-  imports: [
-    TableModule
-  ]
+  standalone: false
 })
 export class FlightsComponent implements OnInit {
   flights = [
